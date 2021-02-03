@@ -23,4 +23,4 @@ int main()
 {
     Classf cf;
     cout << sum2(cf, 1, 2) << endl; 
-}
+} 
