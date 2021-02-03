@@ -31,4 +31,4 @@ int main()
     C object1("object1", 100, 200), object2("object"), object3;
     object1.memberFunction1();
     return 0;
-}
+} 

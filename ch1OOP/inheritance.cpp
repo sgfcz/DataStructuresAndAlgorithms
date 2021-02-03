@@ -14,7 +14,7 @@ protected:
         cout << "Function g() in BaseClass called from "  << s << endl;
     }
 private:
-    void h() {
+    void h() { 
         cout << "Function h() in BaseClass\n";
     }
 };

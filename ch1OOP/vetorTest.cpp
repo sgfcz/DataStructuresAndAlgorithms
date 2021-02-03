@@ -37,7 +37,7 @@ int main()
     v5[1] = v5.at(3) = 9;
     v3.reserve(6);
     v4.resize(7);
-    v4.resize(3);
+    v4.resize(3); 
     v4.clear();
     v4.insert(v4.end(), v3[1]);
     v4.insert(v4.end(), v3.at(1));

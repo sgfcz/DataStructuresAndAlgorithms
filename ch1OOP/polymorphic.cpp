@@ -35,7 +35,7 @@ int main()
     Class3 object3;
 
     p = &object1;
-    p->f();
+    p->f(); 
     p->g();
 
     p = (Class1*) &object2;

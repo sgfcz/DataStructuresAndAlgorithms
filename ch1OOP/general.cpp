@@ -10,4 +10,4 @@ int main()
     genclass<float, 123> floatobject1;
 
     return 0;
-}
+} 
