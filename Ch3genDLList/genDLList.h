@@ -17,6 +17,38 @@ public:
 };
 
 template<class T>
-class 
+class DoublyLinkedList {
+public:
+		DoublyLinkedList() {
+				head = tail = 0;
+		}
+		void addToDLLTail(const T&);
+		T deleteFromDLLTail();
+protected:
+		DLLNode<T> *head, *tail;
+};
 
+template<class T>
+void DoublyLinkedList<T>::addToDLLTail(const T& el) {
+		if (tail != 0) {
+				tail = new DLLNode<T>(el, 0, tail);
+				tail->prev->next = tail;
+		}
+		else head = tail = new DLLNode<T>(el);
+}
+
+template<class T>
+T DoublyLinkedList<T>::deleteFromDLLTail() {
+		T el = tail->info;
+		if (head == tail) {
+				delete head;
+				head = tail = 0;
+		}
+		else {
+				tail = tail->prev;
+				delete tail->next;
+				tail->next = 0;
+		}
+		return el;
+}
 #endif // !DOUBLY_LINKED_LIST
