@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch1Database", "Ch1Database\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch3genDLList", "Ch3genDLList\Ch3genDLList.vcxproj", "{FCEE97EF-10B9-4F95-AC59-C377FA26B009}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch3genSkipL", "Ch3genSkipL\Ch3genSkipL.vcxproj", "{6B3B91B3-2DFA-4DAF-B7D5-9B5F080DBAF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{FCEE97EF-10B9-4F95-AC59-C377FA26B009}.Release|x64.Build.0 = Release|x64
 		{FCEE97EF-10B9-4F95-AC59-C377FA26B009}.Release|x86.ActiveCfg = Release|Win32
 		{FCEE97EF-10B9-4F95-AC59-C377FA26B009}.Release|x86.Build.0 = Release|Win32
+		{6B3B91B3-2DFA-4DAF-B7D5-9B5F080DBAF9}.Debug|x64.ActiveCfg = Debug|x64
+		{6B3B91B3-2DFA-4DAF-B7D5-9B5F080DBAF9}.Debug|x64.Build.0 = Debug|x64
+		{6B3B91B3-2DFA-4DAF-B7D5-9B5F080DBAF9}.Debug|x86.ActiveCfg = Debug|Win32
+		{6B3B91B3-2DFA-4DAF-B7D5-9B5F080DBAF9}.Debug|x86.Build.0 = Debug|Win32
+		{6B3B91B3-2DFA-4DAF-B7D5-9B5F080DBAF9}.Release|x64.ActiveCfg = Release|x64
+		{6B3B91B3-2DFA-4DAF-B7D5-9B5F080DBAF9}.Release|x64.Build.0 = Release|x64
+		{6B3B91B3-2DFA-4DAF-B7D5-9B5F080DBAF9}.Release|x86.ActiveCfg = Release|Win32
+		{6B3B91B3-2DFA-4DAF-B7D5-9B5F080DBAF9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
