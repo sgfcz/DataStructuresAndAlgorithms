@@ -16,7 +16,7 @@ public:
         return strcmp(title, bk.title) == 0;
     }
 private:
-    char* title;
+    char* title = NULL;
     Patron* patron;
     ostream& printBook(ostream&) const;
     friend ostream& operator<< (ostream& out, const Book& bk) {
@@ -37,7 +37,7 @@ public:
         return strcmp(name, ar.name) == 0;
     }
 private:
-    char* name;
+    char* name = NULL;
     list<Book> books;
     ostream& printAuthor(ostream&) const;
     friend ostream& operator<< (ostream& out, const Author& ar) {
@@ -74,8 +74,11 @@ class Patron {
 public:
     Patron() {
     }
+    bool operator== (const Patron& pn) const {
+        return strcmp(name, pn.name) == 0;
+    }
 private:
-    char* name;
+    char* name = NULL;
     list<CheckedOutBook> books;
     ostream& printPatron(ostream&) const;
     friend ostream& operator<< (ostream& out, const Patron& pn) {
@@ -122,7 +125,7 @@ ostream& Patron::printPatron(ostream& out) const {
 template<class T>
 ostream& operator<< (ostream& out, const list<T>& lst) {
     for (list<T>::const_iterator ref = lst.begin(); ref != lst.end(); ref++)
-        out << *ref; //overloaded<<
+        out << *ref; // overloaded <<
     return out;
 }
 
@@ -131,7 +134,7 @@ char* getString(const char* msg) {
     cout << msg;
     cin.get(s, 80);
     while (cin.get(s[81]) && s[81] != '\n');
-    destin = new char[strlen(s) + 1];
+    destin = new char[strlen(s) + 3];
     for (i = 0; destin[i] = toupper(s[i]); i++);
     return destin;
 }
@@ -240,7 +243,7 @@ int menu() {
     int option;
     cout << "\nEnter one of the following options:\n"
         << "1. Include a book in the catalog\n2. Check out a book\n"
-        << "3. Return a book\n4. Status\n 5. Exit\n"
+        << "3. Return a book\n4. Status\n5. Exit\n"
         << "Your option? ";
     cin >> option;
     cin.get();
