@@ -26,5 +26,8 @@
     <ClInclude Include="genArrayQueue.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="genQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

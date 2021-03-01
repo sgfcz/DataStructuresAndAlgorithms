@@ -145,6 +145,7 @@
   <ItemGroup>
     <ClInclude Include="genArrayQueue.h" />
     <ClInclude Include="genListStack.h" />
+    <ClInclude Include="genQueue.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
