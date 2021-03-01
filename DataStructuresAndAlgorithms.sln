@@ -17,7 +17,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch3stdList", "Ch3stdList\Ch
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch3Library", "Ch3Library\Ch3Library.vcxproj", "{A3DED37A-A744-49F4-9619-4A37FD43DC6D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch4genStack", "Ch4genStack\Ch4genStack.vcxproj", "{AAC5396E-2E86-4903-8B0E-2D6E43D23D09}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch4StackAndQueue", "Ch4StackAndQueue\Ch4genStack.vcxproj", "{AAC5396E-2E86-4903-8B0E-2D6E43D23D09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
