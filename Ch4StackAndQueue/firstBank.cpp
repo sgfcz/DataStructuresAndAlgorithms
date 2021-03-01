@@ -41,7 +41,7 @@ int main() {
 						else i++;
 				if (!simulQ.isEmpty()) {
 						thereIsLine++;
-						cout << " wait = " << currWait / 60.0;
+						cout << " wait = " << currWait / 60.0 << "\n";
 						if (maxWait < currWait)
 								maxWait = currWait;
 				}
