@@ -140,6 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="firstBank.cpp" />
     <ClCompile Include="genStack.h" />
   </ItemGroup>
   <ItemGroup>
