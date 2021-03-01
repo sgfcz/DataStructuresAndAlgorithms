@@ -24,6 +24,7 @@
     <ProjectGuid>{aac5396e-2e86-4903-8b0e-2d6e43d23d09}</ProjectGuid>
     <RootNamespace>Ch4genStack</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Ch4StackAndQueue</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
