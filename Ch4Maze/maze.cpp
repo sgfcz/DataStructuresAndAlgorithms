@@ -1,3 +1,4 @@
+//top库有问题，以后可能会回头整理
 #include <iostream>
 #include <string>
 #include <stack>
@@ -54,7 +55,7 @@ Maze::Maze() : exitMarker('e'), entryMarker('m'), visited('.'), passage('0'), wa
 				s = new char[cols + 3];
 
 				mazeRows.push(s);
-				strcpy(s + 1, str);
+				strcpy_s(str, s + 1);
 				s[0] = s[cols + 1] = wall;
 				s[cols + 2] = '\0';
 				if (strchr(s, exitMarker) != 0) {
