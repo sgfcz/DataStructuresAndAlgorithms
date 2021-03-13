@@ -23,8 +23,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch4stddeque", "Ch4stddeque\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch4Maze", "Ch4Maze\Ch4Maze.vcxproj", "{CA9FC305-6C38-429D-8EDF-E4AAA6DD8E4C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vonKoch", "vonKoch\vonKoch.vcxproj", "{43369B08-FB1C-4B9C-B63F-74F7A5855A2B}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -113,14 +111,6 @@ Global
 		{CA9FC305-6C38-429D-8EDF-E4AAA6DD8E4C}.Release|x64.Build.0 = Release|x64
 		{CA9FC305-6C38-429D-8EDF-E4AAA6DD8E4C}.Release|x86.ActiveCfg = Release|Win32
 		{CA9FC305-6C38-429D-8EDF-E4AAA6DD8E4C}.Release|x86.Build.0 = Release|Win32
-		{43369B08-FB1C-4B9C-B63F-74F7A5855A2B}.Debug|x64.ActiveCfg = Debug|x64
-		{43369B08-FB1C-4B9C-B63F-74F7A5855A2B}.Debug|x64.Build.0 = Debug|x64
-		{43369B08-FB1C-4B9C-B63F-74F7A5855A2B}.Debug|x86.ActiveCfg = Debug|Win32
-		{43369B08-FB1C-4B9C-B63F-74F7A5855A2B}.Debug|x86.Build.0 = Debug|Win32
-		{43369B08-FB1C-4B9C-B63F-74F7A5855A2B}.Release|x64.ActiveCfg = Release|x64
-		{43369B08-FB1C-4B9C-B63F-74F7A5855A2B}.Release|x64.Build.0 = Release|x64
-		{43369B08-FB1C-4B9C-B63F-74F7A5855A2B}.Release|x86.ActiveCfg = Release|Win32
-		{43369B08-FB1C-4B9C-B63F-74F7A5855A2B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
