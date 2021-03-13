@@ -119,6 +119,7 @@ ostream& operator<< (ostream& out, const Maze& maze) {
 }
 
 int main() {
-		Maze().exitMaze();
-		return 0;
+	Maze().exitMaze();
+	return 0;
 }
+
