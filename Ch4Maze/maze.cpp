@@ -122,4 +122,3 @@ int main() {
 	Maze().exitMaze();
 	return 0;
 }
-
